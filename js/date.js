@@ -1,2 +1,2 @@
 
-document.querySelector('#lasModif').textContent = document.lastModified;
+document.querySelector('#lastModif').textContent = document.lastModified;
