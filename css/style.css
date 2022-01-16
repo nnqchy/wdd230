@@ -1,0 +1,29 @@
+head{
+    display: none;
+}
+
+header, footer {
+    border-radius: 5%;
+    text-align: center;
+    color: #FFF;
+    padding: 0.8rem;
+    background-color: #4766ff;
+}
+
+header, main, footer{
+    max-width: 760px;
+    margin: 0 auto;
+} 
+
+header {
+    display: block;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    display: block;
+}
+ img {
+     border-style: none;
+ }
