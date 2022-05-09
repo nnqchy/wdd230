@@ -17,6 +17,12 @@ footer {
   
 }
 
+header{
+  border: 1px solid #000;
+  display: grid;
+  grid-template-columns: 1fr 200px; 
+}
+
 header img {
   width: 120px;
   height: auto;
