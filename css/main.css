@@ -35,6 +35,11 @@ main{
   grid-template-columns: 1fr;
 }
 
+section:nth-child(2){
+  display: none;
+  margin: 0.5rem;
+}
+
 hr {
     display: block;
     margin-top: 0.5em;
