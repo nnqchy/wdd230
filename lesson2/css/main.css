@@ -3,7 +3,7 @@ body {
      }
   
 header,  main, footer {
-    max-width: 760px;
+    max-width: 1080px;
     margin: 0 auto;
     }
 header, footer {
