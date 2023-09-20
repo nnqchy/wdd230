@@ -13,7 +13,7 @@ footer {
   text-align: center;
   color:#FFF;  
   padding: .8rem;
-  background-color: #4766ff;
+  background-color: #1b35b4;
   
 }
 
@@ -31,10 +31,10 @@ header img {
   box-shadow: 2px 2px 10px #000;
 }
 
-/*main{
+nav{
   grid-template-columns: 1fr;
-  background-color: #43b062;
-}*/
+  list-style-type: none;
+}
 
 
 body {
@@ -62,5 +62,5 @@ h2 {
 
 .card {
   grid-template-columns: 1fr;
-  background-color: #43b062;
+  background-color: #ededed;
 }
