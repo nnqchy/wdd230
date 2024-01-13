@@ -14,7 +14,7 @@ footer {
   text-align: center;
   color:#FFF;  
   padding: .8rem;
-  background-color: #1b35b4;
+  background-color: #0d26a1;
   
 }
 
@@ -62,5 +62,7 @@ h2 {
 
 .card {
   grid-template-columns: 1fr;
-  background-color: #ededed;
+  background-color: #fbfafa;
+  border-radius: 3%;
+  box-shadow: 2px 2px 10px #000;
 }
