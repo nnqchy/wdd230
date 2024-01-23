@@ -1,13 +1,13 @@
 @media only screen and (min-width: 32.5em){
-main{
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 10px;
-}
-section:nth-child(2){
-    display: block;
-    }    
-section:nth-child(3){
-    grid-column: span 2;
-}
-}
+    main{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 10px;
+    }
+    section:nth-child(2){
+        display: block;
+        }    
+    section:nth-child(3){
+        grid-column: span 2;
+    }
+    }
