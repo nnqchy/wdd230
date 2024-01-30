@@ -4,6 +4,9 @@
         grid-template-rows: repeat(2, 1fr);
         grid-column-gap: 10px;
     }
+    nav {
+        flex-direction: column;
+        }
     section:nth-child(2){
         display: block;
         }    
