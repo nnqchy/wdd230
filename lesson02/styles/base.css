@@ -2,7 +2,7 @@ body {
     font-size: 18px;
      }
   
-header,  main, footer {
+header,  nav, main, footer {
     max-width: 1080px;
     margin: 0 auto;
     }
@@ -22,15 +22,21 @@ header{
     align-items: center; 
     }
 
-    nav {
+nav {
     display: flex;
-    flex-direction:row;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+    grid-gap: .05em;
+    background-color: #fbfafa;
+    box-shadow: 2px 2px 10px #000;
     }
       
 nav a {
     color: black;
     text-decoration: none;
-    display: block;
+    /*display: block;*/
     flex: 1 1 auto;
     }
 
@@ -64,7 +70,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     }
   
- h1,h2,h3,h4,h5,h6 {
+nav, h1,h2,h3,h4,h5,h6 {
     font-family: 'Roboto Slab', serif;
     }  
   
@@ -83,14 +89,15 @@ h3 {
     margin-left: 0.5rem;
     text-align: left;
    }
-
-.card {
+ 
+   .card {
     display: grid;
     align-items: center;
     grid-gap: 2px;
     grid-template-columns: 1fr;
     background-color: #fbfafa;
     box-shadow: 2px 2px 10px #000;
+    padding: inherit;
      
   }   
   

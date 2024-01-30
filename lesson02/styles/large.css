@@ -3,7 +3,7 @@
         grid-template-columns: repeat(3, 1fr);
         grid-column-gap: 10px;
         }
-     section:nth-child(2){
+    main section:nth-child(2){
         display: block;
         }    
     }
