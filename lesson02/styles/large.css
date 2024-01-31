@@ -1,9 +1,13 @@
 @media only screen and (min-width: 80em){
      main{
         grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
         grid-column-gap: 10px;
         }
-    main section:nth-child(2){
-        display: block;
+    /* main section:nth-child(2){
+        display: block; */
         }     
+    main section:nth-child(3){
+            /* grid-column: span 2; */
+            grid-column: 3/4;    
     }
