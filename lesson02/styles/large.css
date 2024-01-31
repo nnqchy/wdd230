@@ -1,9 +1,9 @@
 @media only screen and (min-width: 80em){
-    main{
+     main{
         grid-template-columns: repeat(3, 1fr);
         grid-column-gap: 10px;
         }
     main section:nth-child(2){
         display: block;
-        }    
+        }     
     }

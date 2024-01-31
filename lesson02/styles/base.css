@@ -20,11 +20,11 @@ header{
     display: grid;
     grid-template-columns: 1fr;
     align-items: center; 
-    }
+    } */
 
 nav {
     display: flex;
-    flex-direction:column;
+    flex-direction:row;
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: stretch;
@@ -36,13 +36,13 @@ nav {
 nav a {
     color: black;
     text-decoration: none;
-    /*display: block;*/
+    display: block;
     flex: 1 1 auto;
     }
 
-    nav ul {
+nav ul {
     list-style-type: none;
-    }    
+    }     
 
 main{
     padding: 1.5rem;
@@ -99,5 +99,4 @@ h3 {
     box-shadow: 2px 2px 10px #000;
     padding: inherit;
      
-  }   
-  
+  }
