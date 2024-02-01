@@ -9,7 +9,6 @@
          grid-template-rows: repeat(5,1fr);
         }
     main section:nth-child(2){
-        /* display: block; */
         display: grid;
 
         }    
