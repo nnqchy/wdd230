@@ -9,14 +9,12 @@ footer {
   margin: 0 auto;
 }
 
-header,
-footer {
+header, footer {
   text-align: center;
   color:#FFF;  
   padding: .8rem;
-  background-color: #0d26a1;
-  
-}
+  background-color: #4766ff;
+  }
 
 header{
   border: 1px solid #000;
@@ -32,10 +30,10 @@ header img {
   box-shadow: 2px 2px 10px #79e0f7;
 }
 
-nav {
+/* nav {
   display: flex;
   flex-direction: column;
-}
+} */
 
 nav a {
   color: black;
@@ -44,8 +42,13 @@ nav a {
   flex: 1 1 auto;
 }
 nav ul {
+  display: flex;
+  flex-direction:column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: stretch;
   list-style-type: none;
-}
+  }  
 
 ul {
 /*display: block;*/

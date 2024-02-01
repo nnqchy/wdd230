@@ -5,6 +5,11 @@ footer {
   border-radius: 3%;
  
 }
+nav ul {
+    flex-direction: row;
+    grid-template-rows: repeat(5,1fr);
+   }
+   
 main{
     grid-template-columns: 1fr 1fr;
 
