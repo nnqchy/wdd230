@@ -4,12 +4,14 @@
         grid-template-rows: repeat(2, 1fr);
         grid-column-gap: 10px;
     }
-    nav {
+    nav ul {
          flex-direction: row;
-         /* grid-template-rows: repeat(5,1fr); */
+         grid-template-rows: repeat(5,1fr);
         }
     main section:nth-child(2){
-        display: block;
+        /* display: block; */
+        display: grid;
+
         }    
     main section:nth-child(3){
         grid-column: span 2;
