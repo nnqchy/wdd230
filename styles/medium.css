@@ -1,34 +1,42 @@
 @media only screen and (min-width: 32.5em){
 
-    header,
+header,
 footer {
   border-radius: 3%;
- 
+}
+
+nav{
+    background-color: #0f2283;
 }
 nav ul {
-    flex-direction: row;
-    grid-template-rows: repeat(5,1fr);
-   }
-   
+    display: flex;
+    flex-direction:row;
+} 
+
+.navigation li {
+	display: block;
+}
 main{
     grid-template-columns: 1fr 1fr;
-
 }
 
-    h1{
-        font-size: 2.5rem;
-    }
-
-    h2{
-        font-size: 1.5rem;
-    }
-
-    header img {
-        float: right;
-      }
-
+h1{
+    font-size: 2.5rem;
 }
+
+h2{
+    font-size: 1.5rem;
+}
+
+header img {
+    float: right;
+}
+
 section:nth-child(2){
     display: block; 
   }
 
+#hmenu {
+    display: none;
+}
+}
