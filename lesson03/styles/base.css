@@ -31,19 +31,19 @@ body {
   }
   
   
-   ul {
-      list-style-type: none;
-      padding: 1rem;
-  } 
+  li, ul {
+      list-style-type: circle;
+
+  }   
   
   
   body {
-      font-family: 'Open Sans', sans-serif;
+      font-family: 'lato', sans-serif;
     
   }
   
   h1,h2,h3,h4,h5,h6 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Montserrat Slab', sans-serif;
     padding: 1rem;
   }  
   
@@ -57,15 +57,9 @@ body {
     text-align: center;
   }
   
-  #hmenu {
-    display: block;
-    font-size: 2rem;
-    font-weight: 700;
-    text-decoration: none;
-    padding: .5rem .75rem;
-    background-color: #eee;
-    color: #000;
-  }
+img{
+  padding: .5rem;
+}
   
   .card {
     display: grid;
