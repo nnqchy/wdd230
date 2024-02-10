@@ -1,5 +1,6 @@
 body {
     font-size: 18px;
+    background-color: #8ECAE6;
   }
   
   header,
@@ -11,9 +12,9 @@ body {
   
   header, footer {
     text-align: center;
-    color:#FFF;  
+    color:#FB8500;  
     padding: .8rem;
-    background-color: #4766ff;
+    background-color: #023047;
     }
   
   header{
@@ -39,6 +40,7 @@ body {
   
   body {
       font-family: 'lato', sans-serif;
+      color: #023047;
     
   }
   
@@ -66,7 +68,7 @@ img{
     align-items: center;
     grid-gap: 2px;
     grid-template-columns: 1fr;
-    background-color: #fbfafa;
+    background-color: #219EBC;
     box-shadow: 2px 2px 10px #000;
     padding: 1rem;
   }
