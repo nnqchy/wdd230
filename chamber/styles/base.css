@@ -55,6 +55,31 @@ nav a:hover, .navigation a:active{
   background-color: #FFB703;
 } 
 
+main img {
+  width: 120px;
+  height: auto;
+  border-radius: 5%;
+  box-shadow: 2px 2px 10px #000;
+  
+}
+
+main{
+padding: 1.5rem;
+background-color: rgb(199, 213, 228);
+display: grid;
+grid-template-columns: 1fr;
+grid-gap: 0.5rem;
+align-items: center;
+text-align: center;
+}
+
+
+section:nth-child(2){
+display: none;
+margin: 0.5rem;
+}
+
+
 footer{
   border: 1px solid #000;
   display: grid;
