@@ -1,7 +1,8 @@
 body {
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
-    background-color: #8ECAE6;
+    /* background-color: #8ECAE6; */
+    background-color: #ffffff;
 }
   
 header,
@@ -52,10 +53,11 @@ nav ul {
     
 }  
   
-nav a:hover, .navigation a:active{
+nav a:hover, .navigation a:active {
   color: #023047;
   background-color: #FFB703;
 } 
+
 
 main img {
   width: 120px;
@@ -67,7 +69,9 @@ main img {
 
 main{
 padding: 1.5rem;
-background-color: rgb(199, 213, 228);
+/* background-color: rgb(199, 213, 228); */
+background-color: rgb(247, 249, 251);
+color: #023047;
 display: grid;
 grid-template-columns: 1fr;
 grid-gap: 0.5rem;
@@ -187,8 +191,30 @@ h2 {
   box-shadow: 2px 2px 10px #023047;
   padding: 1rem;
 }
-  
-.activemenu {
-  color: green;  
+
+.dark-mode main .card, body {
+
+/* background-color: #000; */
+background: #333;
+color: #fff;
+border: #FB8500;
+
 }
+
+.dark-mode main {
+
+  background-color: #000; 
+  /* background: #333; */
+  color: #fff;
+  border: #FB8500;
   
+  }
+  
+#dark-toggle::before {
+	content: "Dark-Mode";
+    
+}
+
+#dark-toggle.dark-mode::before {
+	content: "Light-Mode";
+}
