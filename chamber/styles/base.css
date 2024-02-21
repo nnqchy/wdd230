@@ -21,8 +21,10 @@ header, footer {
 header{
   border: 1px solid #000;
   display: grid;
-  grid-template-columns: 1fr;
-  align-items: center; 
+  padding: 20px;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  box-shadow: 0 0 30px #333; 
 }
   
 nav {
