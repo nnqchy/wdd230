@@ -19,10 +19,10 @@ button.addEventListener('click', function () {
     else {
         input.focus();
     }
-
+    deleteButton.addEventListener('click', function () {
+        list.removeChild(li);
+        input.focus();
+    })
 });
 
-deleteButton.addEventListener('click', function () {
-    list.removeChild(li);
-    input.focus();
-})
+
