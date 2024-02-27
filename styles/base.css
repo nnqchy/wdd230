@@ -153,3 +153,21 @@ iframe{
   color: yellow;
 
 }
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.herolabel {
+  position: absolute;
+  top: 50px;
+  right: 150px;
+  color: #FB8500;
+  background: #023047;
+  border: 4px solid  #4D5B97;
+  padding: 0.9rem;
+  box-shadow: 0 0 1rem #8ECAE6;
+  opacity: 0.8;;
+}
