@@ -51,6 +51,12 @@
         display: none;
     }
     
+    .hero img {
+        height: 100%;
+        object-fit: none;
+
+      }
+
     .herolabel {
         right: 200px;
      } 
