@@ -28,6 +28,10 @@ h2{
     font-size: 1.5rem;
 }
 
+ul {
+    padding: 1rem;
+} 
+
 header img {
     float: right;
 }
@@ -44,8 +48,8 @@ header img {
     display: none;
 }
 
-.herolabel {
-    right: 175px;
+.herolabel p {
+    font-size: 1rem;
   }
 
 }

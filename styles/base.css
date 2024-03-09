@@ -1,5 +1,8 @@
 body {
   font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  max-width: 960px;
+  margin: auto;
 }
 
 header,
@@ -14,12 +17,12 @@ header, footer {
   color:#FFF;  
   padding: .8rem;
   background-color: #4766ff;
-  }
+}
 
 header{
   border: 1px solid #000;
   display: grid;
-  grid-template-columns: 150px 1fr;
+  grid-template-columns: 200px 1fr;
   align-items: center; 
 }
 
@@ -31,7 +34,6 @@ header img {
 }
 
 nav {
-  
   margin: 0 auto;
 } 
 
@@ -43,15 +45,14 @@ nav a {
   flex: 1 1 auto;
   text-align: left;
 }
-  nav ul {
+
+nav ul {
   display: flex;
   flex-direction:column;
   flex-wrap: nowrap;
   justify-content: space-around;
   align-items: stretch;
-  list-style-type: none;
-  /* display: none; */
-  
+  list-style-type: none;  
 }  
 
 nav a:hover, .navigation a:active{
@@ -59,16 +60,9 @@ nav a:hover, .navigation a:active{
     background-color: #fff;
 } 
 
- ul {
+ul {
     list-style-type: none;
-    padding: 1rem;
 } 
-
-
-body {
-    font-family: 'Open Sans', sans-serif;
-  
-}
 
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Roboto Slab', serif;
@@ -81,7 +75,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: center;
 }
 
@@ -107,6 +101,7 @@ iframe{
   background-color: #eee;
   color: #000;
 }
+
 #hmenu::before{
   content: "≡";
 }
@@ -119,9 +114,10 @@ iframe{
 	list-style: none;
 	margin: 0 auto;
 }
+
 .navigation li {
 	display: none;
- }
+}
 
 .navigation a {
 	display: block;
@@ -151,31 +147,33 @@ iframe{
 
 .activemenu {
   color: yellow;
-
 }
 
 .hero{
-  margin: 10px auto;
   position: relative;
-  border: 1px solid #023047;
-  height: 300px;
 }
 
 .hero img {
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
-}
+} 
 
 .herolabel {
   position: absolute;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  bottom: 10px;
-  right: 90px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  top: 10px;
+  left: 20px;
   color: #f2f0ed;
-  background: #023047;
-  border: 4px solid  #4D5B97;
-  padding: 0.5rem;
-  box-shadow: 0 0 1rem #8ECAE6;
+  background: #023047; 
+  border: 2px solid  #4D5B97; 
+  padding: 0 0.2rem; 
+  box-shadow: 0 0 1rem #8ECAE6; 
   opacity: 0.8;;
+}
+
+.herolabel p {
+  font-size: 16px;
+  padding: 5px;
+  margin: 0;
 }

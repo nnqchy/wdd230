@@ -36,8 +36,8 @@ header img {
 }
 
 
-.herolabel {
-    right: 550px;
+.herolabel p {
+    font-size: 1.5rem;
   }
 
 }
