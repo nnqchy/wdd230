@@ -51,14 +51,18 @@
         display: none;
     }
     
+    .hero{
+        margin: 5px auto;
+        border: 1px solid #023047;
+        height: 500px;
+      }
+
     .hero img {
         height: 100%;
-        object-fit: none;
-
       }
 
     .herolabel {
-        right: 200px;
+        right: 1%;
      } 
 
     }

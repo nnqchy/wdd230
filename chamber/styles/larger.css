@@ -31,12 +31,16 @@
         float: right;
     }
     
-   
+    .hero img {
+        height: 100%;
+        object-fit: none;
+      }
+
         
     .herolabel {
         position: absolute;
         top: 40px;
-        right: 40px;
+        right: 450px;
     }
     
 }
