@@ -1,10 +1,12 @@
 @media only screen and (min-width: 32.5em){
-    header{
-        display: flex;
+    /* header{
+        
+        grid-template-columns: 1fr 100px;
+        /* display: flex;
         align-items: center;
-        justify-content: space-between;
-    }
-       
+        justify-content: space-between; 
+    } 
+    */   
     nav{
         justify-content: flex-end;
         flex-direction: row;

@@ -23,7 +23,7 @@ header{
   border: 1px solid #000;
   display: grid;
   padding: 20px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 100px;
   align-items: center;
   box-shadow: 0 0 30px #333; 
 }
@@ -217,4 +217,8 @@ border: #FB8500;
 
 #dark-toggle.dark-mode::before {
 	content: "Light-Mode";
+}
+
+#main-discover h3 {
+  font-size: 1.7em;
 }

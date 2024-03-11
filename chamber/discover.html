@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Chamber of Commerce Mar del Plata City">
+    <meta name="description" content="Discover the Chamber of Commerce Mar del Plata City">
     <meta name="author" content="Alex Benitez">
-    <title>Chamber of Commerce Mar del Plata City</title>
+    <title>Discover the Chamber of Commerce Mar del Plata City</title>
 
-    <link rel="preconnect" href="https://fontsgstatics.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+<!--    <link rel="preconnect" href="https://fontsgstatics.com">-->
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -23,40 +22,24 @@
 </head>
 <body>
     <header>
-        <h1>Chamber of Commerce of Mar del Plata city</h1>
+        <h1>Discover the Chamber of Commerce of Mar del Plata city</h1>
         <button id="dark-toggle"></button>
     </header>
    <a id="hmenu" href="#"></a>
     <nav>
       <ul class="navigation">
-      <li><a href="#" title="Home">Home</a></li>
-      <li><a href="/chamber/discover.html">Discover</a></li>
+      <li><a href="/chamber/index.html" title="Home">Home</a></li>
+      <li><a href="#">Discover</a></li>
       <li><a href="#">Directory</a></li>
       <li><a href="#">Join</a></li>
       </ul>
     </nav>
-    <div>
-    <!--    <h2>Mar del Plata</h2>  -->
-        <section class="hero">
-            <picture>
-                <source srcset="images/wdd230_small.webp" media="(max-with: 500px)">
-                <source srcset="images/wdd230_medium.webp" media="(max-with: 1000px)">
-                <img alt="Mar del Planta City" src="images/wdd230_large.webp">    
-            </picture>
-            <div class="herolabel">
-                <p>Join Now</p>
-            </div>
-        </section>
-    </div>
-    <main>
-        </section>
+     <main id="main-discover">
         <section class="card">
-            <h3>Secction 1 - Bussiness Directory</h3>
-            <ul>
-                <li>Bussiness Name 1</li>
-                <li>Bussiness Name 2</li>
-            </ul>
-        </section>  
+            <h3>Secction 1 - Last Visited</h3>
+                    <h3>Last Visited</h3>
+                    <p><span class="visits"></span></p>
+             </section>  
         <section class="card">
             <h3>Secction 2 Weather card</h3>
             <p>78&deg; F - Sunshine</p>
@@ -97,5 +80,6 @@
     <script defer src="scripts/burgermenu.js"></script>
     <script defer src="scripts/darkmode.js"></script>
     <script defer src="scripts/windchill.js"></script>
+    <script defer src="scripts/visits.js"></script>
 </body>
 </html>
