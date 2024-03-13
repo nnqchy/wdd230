@@ -1,46 +1,60 @@
 @media only screen and (min-width: 80em){
 
-    header,
-    main,
-    nav,
-    footer {
-     
-      margin: 0 auto;
+header,
+main,
+nav,
+footer {
+    margin: 0 auto; 
     }  
     
-       
-    main{
-        grid-template-columns: 1fr 1fr 1fr;
-        background-color: rgb(68, 205, 210);
-        /* border-radius: 3%; */
+main {
+    /* grid-template-columns: 1fr 1fr; */
+    background-color: rgb(68, 205, 210);
     }
-    
-    nav {
+
+nav {
         flex-direction: row;
     }
       
-    h1{
-        font-size: 3.5rem;
+h1{
+    font-size: 3.5rem;
+   }
+    
+h2{
+    font-size: 2.5rem;
+  }
+    
+header img {
+    float: right;
+}
+
+/* Hero */
+
+.hero img {
+    height: 100%;
+    object-fit: none;
+    }
+
+.herolabel {
+    position: absolute;
+    top: 40px;
+    right: 450px;
     }
     
-    h2{
-        font-size: 2.5rem;
-    }
-    
-    header img {
-        float: right;
-    }
-    
-    .hero img {
-        height: 100%;
-        object-fit: none;
+/* Discover */
+
+#discover {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5em;
+        /* align-items: center; ???
+        margin: auto;
+        font-size: 1em;*/
+         align-items: center;
+        font-size: 1em;
       }
 
-        
-    .herolabel {
-        position: absolute;
-        top: 40px;
-        right: 450px;
-    }
-    
+
+
+
 }
