@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="WDD 230 - Web Frontend Development a course assignment portal - Lesson 08 - Table">
+    <meta name="author" content="Alex Benitez">
+    <title>Alex Benitez - WDD 230 - Web Frontend Development - Lesson 08 - Table</title>
+
+    <link rel="preconnect" href="https://fontsgstatics.com">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="styles/tablebuild.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <meta property="og:title" content="Alex Benitez - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://unsplash.com/photos/trees-beside-waterfalls-lYv3hXpFdeY">
+    <meta property="og:url" content="https://nnqchy.github.io/wdd230/">
+</head>
+<body>
+    <header>
+        <h1>Alex Benitez</h1>
+    </header>
+    
+    <main>
+        <h2>Lesson 08 - Table</h2>
+        <section class="card">
+            <h3>Table</h3>
+            <table>
+                <caption>Table 1: Account Feature Comparison</caption>
+                <thead>
+                    <tr>
+                        <th colspan="4" scope="colgroup">ACME Wildwest Services</th>
+                    </tr>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Basic</th>
+                        <th scope="col">Primiun</th>
+                        <th scope="col">Deluxe</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Feature 1</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                    </tr>
+                    <tr>
+                        <td>Feature 1</td>
+                        <td>❌ </td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                    </tr>
+                    <tr>
+                        <td>Feature 1</td>
+                        <td>❌ </td>
+                        <td>❌ </td>
+                        <td>✔️</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section> 
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span>.:|:. Alex Benitez .:|:. SC, California</p>
+        <p>Last Updated: <span id="lastModified"></span></p>
+    </footer>
+    <script defer src="../scripts/getdates.js"></script> 
+
+</body>
+</html>
