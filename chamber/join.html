@@ -29,10 +29,10 @@
    <a id="hmenu" href="#"></a>
     <nav>
       <ul class="navigation">
-      <li><a href="#" title="Home">Home</a></li>
+      <li><a href="index.html" title="Home">Home</a></li>
       <li><a href="discover.html">Discover</a></li>
       <li><a href="#">Directory</a></li>
-      <li><a href="join.html">Join</a></li>
+      <li><a href="#">Join</a></li>
       </ul>
     </nav>
     <div>
@@ -49,32 +49,41 @@
         </section>
     </div>
     <main>
-        </section>
-        <section class="card">
-            <h3>Secction 1 - Bussiness Directory</h3>
-            <ul>
-                <li>Bussiness Name 1</li>
-                <li>Bussiness Name 2</li>
-            </ul>
-        </section>  
-        <section class="card">
-            <h3>Secction 2 Weather card</h3>
-            <p>78&deg; F - Sunshine</p>
-            <p>Wind Chill: <span id="windChill"></span>&deg;</p> 
-        </section>
-        <section class="card">
-            <h3>Secction 3 Last News</h3>
-            <p>On the news with can see....</p>
-        </section> 
-        <section class="card">
-            <h3>Secction 4 What to do 3 H3</h3>
-            <p>This week we have....</p>
-        </section> 
-        <section class="card">
-            <h3>Secction 5 Advertisements card</h3>
-            <p>Click Here</p>
-        </section> 
-    </main>
+       
+    <form method="get" action="thankyou.html" class="joinform">
+        <fieldset>
+            <legend>Apply to Join the Chamber</legend>
+                <label>First Name*<input  type="text" id="fname" name="fname" required></label>
+                <label>Last Name*<input type="text" id="lname" name="lname" required></label>
+                <label>Title or Position*<input type="text" id="title" name="title" pattern="[a-zA-Z\s\-]{7,}" required></label>
+                <label>Email* <input type="email" id="email" name="email" placeholder="alex@byui.edu" required></label>
+                <label>Mobile Phone Number*<input type="tel" id="tel" name="tel" required></label>
+                <label>Business/Organization's Name*<input type="text" id="org" name="org" required></label>            
+                <span id="errormensaje"></span>
+        </fieldset>
+        <fieldset>
+            <legend>Membership</legend>
+                <div>Levels</div>    
+                <label><input type="radio" name="membership" id="membership" value="np">NP Membership is for non profit organizations and there is no fee</label>
+                <label><input type="radio" name="membership" id="membership" value="bronze">Bronze Membership</label>
+                <label><input type="radio" name="membership" id="membership" value="silver">Silver Membership</label>
+                <label><input type="radio" name="membership" id="membership" value="gold">Gold Membership</label>
+            </fieldset>
+            <fieldset>
+                <legend>Our Business/Organization</legend>
+                <label>Descriton<input  type="text" id="fname" name="fname" required></label>
+                <label>
+                <textarea id="textarea" name="textarea" rows="4" cols="50">
+                    Chamber of Commerce of Mar del Plata city is the best one.
+                </textarea>
+                </label>
+                <input type="hidden" id="date" name="date" value="3487">
+
+            </fieldset>
+        <input type="submit" value="Apply">
+    </form>
+
+   </main>
     <footer>
         <section>
             <p>Mar del Plata</p>

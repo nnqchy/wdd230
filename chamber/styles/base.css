@@ -1,7 +1,16 @@
+:root {
+  --border-color: #999;
+  --input-color: #555;
+  --title-color: #FB8500;
+  --backgroung-color: #023047;
+}
+
+
+
 body {
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
-    background-color: #ffffff;
+    background-color: var(--backgroung-color);
 }
   
 header,
@@ -261,3 +270,69 @@ border: #FB8500;
   transform: scale(1.1);
 }
 
+/*       Join Form      */
+
+
+.joinform fieldset{
+  margin: 2rem 0;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  padding: .5rem 2%;
+  text-align: left;
+  
+}
+
+.joinform legend {
+  color: var(--title-color);
+  padding: 0 .5rem;
+}
+
+.joinform label {
+  display: block;
+  padding-top: 1rem;
+  color: var(--title-color);
+  font-size: .9rem;
+}
+
+.joinform input[type="text"],
+.joinform input[type="password"],
+.joinform input[type="tel"],
+.joinform input[type="email"]
+
+{
+  background-color: #8ECAE6;
+  display: block;
+  border: solid 1px var(--border-color);
+  border-radius: 5px;
+  padding: .75rem;
+  color: var(--input-color);
+  width: 100%;
+  max-width: 400px;
+  appearance: none;
+}
+
+.joinform input[type="radio"]{
+  margin-right: 5px;
+}
+
+.joinform input[type="submit"]{
+  border: none;
+  background-image: linear-gradient(#FB8500, #023047);
+  color: #fff;
+  border-radius: 5px;
+  padding: .8rem;
+  width: 96%;
+  max-width: 400px;
+  margin: -1rem 2% 2rem 2%;
+  box-shadow: 1px 1px 4px var(--border-color);
+}
+
+.joinform input:required {
+  border-left: solid 8px var(--title-color);
+
+}
+
+.joinform input:required:valid {
+  border-left: solid 10px var(--title-color);
+
+}
