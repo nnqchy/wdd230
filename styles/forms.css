@@ -1,0 +1,84 @@
+:root {
+    --border-color: #999;
+    --input-color: #555;
+    --title-color: #445ba9;
+    --backgroung-color: #eee;
+  }
+
+.wf fieldset{
+    margin: 2rem 0;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    padding: .5rem 2%
+}
+
+.wf legend {
+    color: var(--title-color);
+    padding: 0 .5rem;
+}
+
+.wf label {
+    display: block;
+    padding-top: 1rem;
+    color: var(--title-color);
+    font-size: .9rem;
+}
+
+.wf input[type="text"],
+.wf input[type="password"],
+.wf input[type="email"]
+
+{
+    background-color: var(--backgroung-color);
+    display: block;
+    border: solid 1px var(--border-color);
+    border-radius: 5px;
+    padding: .75rem;
+    color: var(--input-color);
+    width: 100%;
+    max-width: 500px;
+    appearance: none;
+}
+
+
+
+.wf input[type="submit"]{
+    border: none;
+    background-image: linear-gradient(#4766ff, #445ba9);
+    color: #fff;
+    border-radius: 5px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 400px;
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px var(--border-color);
+}
+
+.wf input:required {
+    border-left: solid 8px var(--title-color);
+
+}
+
+.wf input:required:valid {
+    border-left: solid 10px var(--title-color);
+
+}
+
+#range {
+	width: 180px;
+	margin-bottom: 0;
+}
+
+#rangevalue {
+	font-size: 1.5rem;
+
+}
+
+#rangevalues {
+	display: flex;
+	width: 190px; 
+}
+
+#rangevalues option {
+	flex: 1 1 auto; 
+}

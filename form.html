@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/large.css">
-    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/medium.css"> 
+    <link rel="stylesheet" href="styles/forms.css"> 
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
     <meta property="og:title" content="Alex Benitez - WDD 230 - Web Frontend Development">
@@ -27,7 +28,7 @@
     <a id="hmenu" href="#"></a>
     <nav>
       <ul class="navigation">
-      <li><a href="#" title="Home" class="activemenu">Home</a></li>
+      <li><a href="index.html" title="Home" class="activemenu">Home</a></li>
       <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
       <li><a href="chamber/">Chamber</a></li>
       <li><a href="https://www.byui.edu/" target="_blank">BYU-Idaho</a></li>
@@ -37,7 +38,41 @@
     <main>
         <h2>Lesson 08</h2>
         <section class="card">
-            <h3>Forms</h3>
+            <h3>Form</h3>
+            <form method="get" action="record.html" class="wf">
+                <fieldset>
+                    <legend>User Registration</legend>
+                    <label>Username* <input  type="text" id="username" name="username" required></label>
+                    <label>Password* <input type="password" id="password1" name="password" 
+                            placeholder="(8) characters alpha-numeric" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" required></label>
+                    <label>Password repeated for confirmation* <input type="password" id="password2" name="password" required
+                            placeholder="(8) characters alpha-numeric"></label>
+                    <span id="errormensaje"></span>
+                    <label>Email* <input type="email" id="email" name="email" pattern="[a-zA-Z0-9_.\-]+@byui.edu" title="A valid byu.edu email address."
+                        placeholder="someone@byui.edu" required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Page Rating</legend>
+                        <label>
+                            <div id="rangevalue">0</div>
+                            <input type="range" id="range" name="range" min="0" max="10" step="1" value="0" list="rangevalues">
+                            <datalist id="rangevalues">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </datalist>
+                        </label>
+                </fieldset>
+<input type="submit" value="Propose My Course">
+            </form>
             
         </section> 
     </main>
@@ -47,6 +82,6 @@
     </footer>
     <script defer src="scripts/getdates.js"></script> 
     <script defer src="scripts/hamburgermenu.js"></script>
-    <script defer src="scripts/pagevisits.js"></script>
+    <script defer src="scripts/passwordcheck.js"></script>
 </body>
 </html>
