@@ -336,3 +336,9 @@ border: #FB8500;
   border-left: solid 10px var(--title-color);
 
 }
+
+textarea {
+  margin-right: 5px;
+  text-align: left;
+
+}
