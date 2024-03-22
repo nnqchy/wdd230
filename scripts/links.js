@@ -6,8 +6,8 @@ const enlaces = document.querySelector('#enlaces');
 async function getLinks() {
     const response = await fetch(linksURL);
     const data = await response.json();
-    console.log(data.lessons);
-    displayLinks(data.lessons);
+    console.log(data);
+    displayLinks(data);
 }
 
 const displayLinks = (links) => {
