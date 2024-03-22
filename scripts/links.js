@@ -35,14 +35,13 @@ const displayLinks = (prophets) => {
 
 
         // Append the section(card) with the created elements
-        link.appendChild(room);
         link.appendChild(h2);
         link.appendChild(ul);
         link.appendChild(li);
-        link.appendChild(portrait);
+        //link.appendChild(portrait);
         //    card.appendChild(hijos);
 
-        enlaces.appendChild(room);
+        enlaces.appendChild(link);
     }); // end of arrow function and forEach loop
 }
 
