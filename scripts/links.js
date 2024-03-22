@@ -19,7 +19,7 @@ const displayLinks = (lessons) => {
 
         let ul = document.createElement('ul');
         let li = document.createElement('li');
-        let url = document.createElement('LINK');
+        let url = document.createElement('a');
 
         //    let years = document.createElement('p');
         //    let hijos = document.createElement('p');
