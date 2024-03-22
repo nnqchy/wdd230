@@ -41,7 +41,7 @@ const displayLinks = (prophets) => {
         //link.appendChild(portrait);
         //    card.appendChild(hijos);
 
-        enlaces.appendChild(link);
+        enlaces.appendChild(ul);
     }); // end of arrow function and forEach loop
 }
 
