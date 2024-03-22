@@ -1,13 +1,13 @@
 const baseURL = "https://nnqchy.github.io/wdd230/";
 const linksURL = "https://nnqchy.github.io/wdd230/data/links.json";
-const rooms = document.querySelector('#lessons');
+//const rooms = document.querySelector('#lessons');
 
 
 async function getLinks() {
     const response = await fetch(linksURL);
     const data = await response.json();
     console.log(data.lessons);
-    displayLinks(data.lessons);
+    //   displayLinks(data.lessons);
 }
 
 const displayLinks = (links) => {
