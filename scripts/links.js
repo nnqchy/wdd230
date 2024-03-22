@@ -10,8 +10,8 @@ async function getLinks() {
     displayLinks(data.links);
 }
 
-const displayLinks = (lessons) => {
-    lessons.forEach((lesson) => {
+const displayLinks = (links) => {
+    links.forEach((link) => {
         // Create elements to add to the div.cards element
         let room = document.createElement('section');
         let lista = document.createElement('li');
@@ -22,12 +22,12 @@ const displayLinks = (lessons) => {
         //    let hijos = document.createElement('p');
 
         // Build the h2 content out to show the prophet's full name
-        clase.textContent = `${lesson.title}`;
+        clase.textContent = `${link.title}`;
         //    years.textContent = `${prophet.length} years of service`;
         //    hijos.textContent = `Children: ${prophet.numofchildren}`;
 
         // Build the image portrait by setting all the relevant attributes
-        portrait.setAttribute('src', lesson.url);
+        portrait.setAttribute('src', link.url);
         //    portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}`);
         //   portrait.setAttribute('loading', 'lazy');
         //    portrait.setAttribute('width', '340');
