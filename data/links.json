@@ -1,12 +1,12 @@
 {
-    "lessons": [
+    "prophets": [
         {
-            "lesson": "02",
-            "links": "Hello"
+            "name": "02",
+            "lastname": "Hello"
         },
         {
-            "lesson": "03",
-            "links": "bye"
+            "name": "03",
+            "lastname": "bye"
         }
     ]
 }
