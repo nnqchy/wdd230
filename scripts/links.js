@@ -14,21 +14,16 @@ const displayLinks = (prophets) => {
     prophets.forEach((prophet) => {
         // Create elements to add to the div.cards element
 
-        let h2 = document.createElement('h2');
         let ul = document.createElement('ul');
         let li = document.createElement('li');
-        let portrait = document.createElement('url');
+        let url = document.createElement('url');
 
         //    let years = document.createElement('p');
         //    let hijos = document.createElement('p');
 
-        // Build the h2 content 
-        h2.textContent = `Learning Activities JS ${prophet.lastname}`;
-
-
         // Build the list
         li.textContent = `${prophet.name}`;
-        li.textContent = `${prophet.lastname}`;
+        url.textContent = `${prophet.lastname}`;
         // portrait.setAttribute('src', lesson.links);
         //    portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}`);
         //   portrait.setAttribute('loading', 'lazy');
@@ -37,8 +32,8 @@ const displayLinks = (prophets) => {
 
 
         // Append the section(card) with the created elements
-        ul.appendChild(h2);
         ul.appendChild(li);
+        ul.appendChild(url);
         //link.appendChild(portrait);
         //    card.appendChild(hijos);
 
