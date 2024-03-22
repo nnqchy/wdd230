@@ -1,6 +1,6 @@
 const baseURL = "https://nnqchy.github.io/wdd230/";
 const linksURL = "https://nnqchy.github.io/wdd230/data/links.json";
-//const rooms = document.querySelector('#lessons');
+const enlaces = document.querySelector('#enlaces');
 
 
 async function getLinks() {
@@ -14,34 +14,35 @@ const displayLinks = (links) => {
     links.forEach((link) => {
         // Create elements to add to the div.cards element
         let room = document.createElement('section');
-        let lista = document.createElement('li');
-        let clase = document.createElement('ul');
+        let h2 = document.createElement('h2');
+        let ul = document.createElement('ul');
+        let li = document.createElement('li');
         let portrait = document.createElement('url');
 
         //    let years = document.createElement('p');
         //    let hijos = document.createElement('p');
 
-        // Build the h2 content out to show the prophet's full name
-        clase.textContent = `${link.title}`;
-        //    years.textContent = `${prophet.length} years of service`;
-        //    hijos.textContent = `Children: ${prophet.numofchildren}`;
+        // Build the h2 content 
+        h2.textContent = `Learning Activities JS`;
 
-        // Build the image portrait by setting all the relevant attributes
-        portrait.setAttribute('src', link.url);
+        // Build the list
+        li.textContent = `${lessons.lesson}`;
+        portrait.setAttribute('src', lesson.links);
         //    portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}`);
         //   portrait.setAttribute('loading', 'lazy');
         //    portrait.setAttribute('width', '340');
         //    portrait.setAttribute('height', '440');
 
+
         // Append the section(card) with the created elements
-        room.appendChild(room);
-        room.appendChild(lista);
-        room.appendChild(clase);
-        room.appendChild(portrait);
-        //    card.appendChild(years);
+        link.appendChild(room);
+        link.appendChild(h2);
+        link.appendChild(ul);
+        link.appendChild(li);
+        link.appendChild(portrait);
         //    card.appendChild(hijos);
 
-        rooms.appendChild(room);
+        enlaces.appendChild(room);
     }); // end of arrow function and forEach loop
 }
 
