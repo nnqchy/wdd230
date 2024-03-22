@@ -2,11 +2,13 @@
     "lessons": [
         {
             "name": "02",
-            "lastname": "Hello"
+            "lastname": "Hello",
+            "url": "lesson02/mediaquery.html"
         },
         {
             "name": "03",
-            "lastname": "bye"
+            "lastname": "bye",
+            "url": "lesson02/mediaquery.html"
         }
     ]
 }

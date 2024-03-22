@@ -26,7 +26,8 @@ const displayLinks = (lessons) => {
 
         // Build the list
         li.textContent = `${lesson.name}`;
-        url.textContent = `${lesson.lastname}`;
+        li.textContent = `${lesson.lastname}`;
+        url.textContent = `${lesson.url}`;
         // portrait.setAttribute('src', lesson.links);
         //    portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}`);
         //   portrait.setAttribute('loading', 'lazy');
