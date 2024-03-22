@@ -19,7 +19,7 @@ const displayLinks = (lessons) => {
 
         let ul = document.createElement('ul');
         let li = document.createElement('li');
-        let url = document.createElement('url');
+        let url = document.createElement('LINK');
 
         //    let years = document.createElement('p');
         //    let hijos = document.createElement('p');
@@ -27,7 +27,7 @@ const displayLinks = (lessons) => {
         // Build the list
         li.textContent = `Week ${lesson.week}: ${lesson.lname}`;
         url.textContent = `${lesson.url}`;
-        // portrait.setAttribute('src', lesson.links);
+        url.setAttribute('src', lesson.url);
         //    portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}`);
         //   portrait.setAttribute('loading', 'lazy');
         //    portrait.setAttribute('width', '340');
