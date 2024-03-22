@@ -13,7 +13,7 @@ async function getLinks() {
 const displayLinks = (prophets) => {
     prophets.forEach((prophet) => {
         // Create elements to add to the div.cards element
-        let room = document.createElement('section');
+
         let h2 = document.createElement('h2');
         let ul = document.createElement('ul');
         let li = document.createElement('li');
@@ -23,10 +23,11 @@ const displayLinks = (prophets) => {
         //    let hijos = document.createElement('p');
 
         // Build the h2 content 
-        h2.textContent = `Learning Activities JS ${prophets.lastname}`;
+        h2.textContent = `Learning Activities JS ${prophet.lastname}`;
+
 
         // Build the list
-        li.textContent = `${prophets.name}`;
+        li.textContent = `${prophet.name}`;
         // portrait.setAttribute('src', lesson.links);
         //    portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}`);
         //   portrait.setAttribute('loading', 'lazy');
