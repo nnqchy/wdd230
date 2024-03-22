@@ -37,7 +37,6 @@ const displayLinks = (prophets) => {
 
         // Append the section(card) with the created elements
         ul.appendChild(h2);
-        ul.appendChild(ul);
         ul.appendChild(li);
         //link.appendChild(portrait);
         //    card.appendChild(hijos);
