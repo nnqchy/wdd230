@@ -6,12 +6,15 @@ const enlaces = document.querySelector('#enlaces');
 async function getLinks() {
     const response = await fetch(linksURL);
     const data = await response.json();
-    console.log(data.prophets);
-    displayLinks(data.prophets);
+    console.log(data.lessons);
+    displayLinks(data.lessons);
+
+    //   console.log(data.prophets);
+    //   displayLinks(data.prophets);
 }
 
-const displayLinks = (prophets) => {
-    prophets.forEach((prophet) => {
+const displayLinks = (lessons) => {
+    lessons.forEach((lesson) => {
         // Create elements to add to the div.cards element
 
         let ul = document.createElement('ul');
@@ -22,8 +25,8 @@ const displayLinks = (prophets) => {
         //    let hijos = document.createElement('p');
 
         // Build the list
-        li.textContent = `${prophet.name}`;
-        url.textContent = `${prophet.lastname}`;
+        li.textContent = `${lesson.name}`;
+        url.textContent = `${lesson.lastname}`;
         // portrait.setAttribute('src', lesson.links);
         //    portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}`);
         //   portrait.setAttribute('loading', 'lazy');
