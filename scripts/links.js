@@ -11,7 +11,7 @@ async function getLinks() {
 }
 
 const displayLinks = (prophets) => {
-    prophetss.forEach((prophet) => {
+    prophets.forEach((prophet) => {
         // Create elements to add to the div.cards element
         let room = document.createElement('section');
         let h2 = document.createElement('h2');
