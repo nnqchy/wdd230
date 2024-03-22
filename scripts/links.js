@@ -1,6 +1,6 @@
 const baseURL = "https://nnqchy.github.io/wdd230/";
 const linksURL = "https://nnqchy.github.io/wdd230/data/links.json";
-const cards = document.querySelector('#lessons');
+const rooms = document.querySelector('#lessons');
 
 
 async function getLinks() {
@@ -13,10 +13,13 @@ async function getLinks() {
 const displayLinks = (lessons) => {
     lessons.forEach((lesson) => {
         // Create elements to add to the div.cards element
-        let clase = document.createElement('p');
+        let room = document.createElement('section');
+        let lista = document.createElement('li');
+        let clase = document.createElement('ul');
+        let portrait = document.createElement('url');
+
         //    let years = document.createElement('p');
         //    let hijos = document.createElement('p');
-        //    let portrait = document.createElement('img');
 
         // Build the h2 content out to show the prophet's full name
         clase.textContent = `${lesson.title}`;
@@ -31,14 +34,30 @@ const displayLinks = (lessons) => {
         //    portrait.setAttribute('height', '440');
 
         // Append the section(card) with the created elements
-        card.appendChild(clase);
-        card.appendChild(portrait);
+        room.appendChild(room);
+        room.appendChild(lista);
+        room.appendChild(clase);
+        room.appendChild(portrait);
         //    card.appendChild(years);
         //    card.appendChild(hijos);
 
-        cards.appendChild(card);
+        rooms.appendChild(room);
     }); // end of arrow function and forEach loop
 }
 
-
+//  <section id="cards">
+//<h3>Learning Activities</h3>
+//<ul>
+//    <li>Home: <a href="#"></a></li>
+//    <li>02: <a href="lesson02/design.html">Web Design Principles</a> | <a href="lesson02/design-principles.html">Design Principles Document</a></li>
+//    <li>03: <a href="#">Description</a></li>
+//    <li>04: <a href="#">Description</a></li>
+//    <li>05: <a href="lesson05/bom.html">Fav BoM</a></li>
+//    <li>06: <a href="#">Description</a></li>
+//    <li>07: <a href="#">Description</a></li>
+//    <li>08: <a href="form.html">Forms</a> | <a href="lesson08/tablebuild.html">Table</a></li>
+//    <li>09: <a href="lesson09/prophets.html">Prophets</a></li>
+//    <li>10: <a href="#">Description</a></li>
+//</ul>/
+//</section>
 getLinks();
