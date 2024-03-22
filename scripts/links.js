@@ -25,8 +25,7 @@ const displayLinks = (lessons) => {
         //    let hijos = document.createElement('p');
 
         // Build the list
-        li.textContent = `${lesson.name}`;
-        li.textContent = `${lesson.lastname}`;
+        li.textContent = `WeeK ${lesson.name} ${lesson.lastname}`;
         url.textContent = `${lesson.url}`;
         // portrait.setAttribute('src', lesson.links);
         //    portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}`);
