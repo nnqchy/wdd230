@@ -27,7 +27,9 @@ const displayLinks = (lessons) => {
         // Build the list
         li.textContent = `Week ${lesson.week}: ${lesson.lname}`;
         //  url.textContent = `${lesson.url}`;
-        url.setAttribute('src', lesson.url);
+        url.setAttribute('href', lesson.url);
+        url.setAttribute('title', lesson.lname);
+        //url.setAttribute('src', lesson.url);
         //    portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}`);
         //   portrait.setAttribute('loading', 'lazy');
         //    portrait.setAttribute('width', '340');
