@@ -242,16 +242,14 @@ border: #FB8500;
 
 }
 
-#discover img {
+#discover-img {
   width: 90%;
-  height: auto;
-  align-items: center;
-
+  height: auto; 
+  /* align-items: center; */
 }
 
 #discover h3 {
   font-size: 1.7em;
-
 }
 
  /* #discover-info{
@@ -260,8 +258,8 @@ border: #FB8500;
     flex-direction: column; 
     align-items: center;
     padding: 2em;
-}  */
-
+}  
+*/
 .zoom {
   transition: transform;
 }
@@ -340,6 +338,8 @@ border: #FB8500;
 textarea {
   margin-right: 5px;
   text-align: left;
+  background-color: #8ECAE6;
+  
 
 }
 
@@ -348,5 +348,15 @@ textarea {
   grid-template-columns: 1fr;
   grid-gap: 0.5rem;
   align-items: center;
+  text-align: center;
+}
+
+.price {
+  background-color: var(--backgroung-color);
+  color: var(--title-color);
+  display: block;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 5%;
   text-align: center;
 }

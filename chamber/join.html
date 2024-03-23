@@ -48,8 +48,7 @@
             </div>
         </section>
     </div>
-    <main>
-       
+    <main id="joinform-main">     
     <form method="get" action="thankyou.html" class="joinform">
         <fieldset>
             <legend>Apply to Join the Chamber</legend>
@@ -62,6 +61,13 @@
                 <span id="errormensaje"></span>
         </fieldset>
         <fieldset>
+            <legend>Our Business/Organization</legend>
+            <label>Business/Organization Description</label>
+                <textarea id="textarea" name="textarea" rows="5" cols="45"></textarea>
+            
+            <input type="hidden" id="date" name="date" value="3487">
+        </fieldset>
+        <fieldset>
             <legend>Membership</legend>
                 <div>Levels</div>    
                 <label><input type="radio" name="membership" id="membership-np" value="np">NP Membership is for non profit organizations and there is no fee</label>
@@ -69,17 +75,54 @@
                 <label><input type="radio" name="membership" id="membership-silver" value="silver">Silver Membership</label>
                 <label><input type="radio" name="membership" id="membership-gold" value="gold">Gold Membership</label>
             </fieldset>
-            <fieldset>
-                <legend>Our Business/Organization</legend>
-                <label>Business/Organization Description</label>
-                    <textarea id="textarea" name="textarea" rows="5" cols="70"></textarea>
-                
-                <input type="hidden" id="date" name="date" value="3487">
-
-            </fieldset>
+        
         <input type="submit" value="Apply">
     </form>
+<div id="miembros">
+    <div>
+        <section class="card">
+            <h3>NP Membership</h3>
+            <p>if for non profit organizations and there is no fee</p>
+            <ul>
+                <li>Ideal for non-profit organizations</li>
+                <li>No membership fee</li>
+                <li>Access to community resources</li>
+            </ul>
+            <p class="price">Free</p>
+        </section>
+        <section class="card">
+            <h3>Bronze Membership</h3>
+            <ul>
+                <li>Affordable membership fee</li>
+                <li>10% event discounts</li>
+                <li>Networking opportunities</li>
+            </ul>
+            <p class="price">$50/mo</p>
+        </section>
+        <section class="card">
+            <h3>Silver Membership</h3>
+            <ul>
+                <li>Everyting on Bronze Membership</li>
+                <li>25 % Event discounts</li>
+                <li>Exclusive training sessions</li>
+            </ul>
+            <p class="price">$125/mo</p>
+        </section>
+        <section class="card">
+            <h3>Gold Membership</h3>
+            <ul>
+                <li>Everyting on Silver Membership</li>
+                <li>40 % Event discounts</li>
+                <li>Prime advertising placement</li>
+            </ul>
+            <p class="price">$250/mo</p>
+        </section>
+    </div>
 
+
+
+
+</div>
    </main>
     <footer>
         <section>
@@ -105,3 +148,5 @@
 
 </body>
 </html>
+
+

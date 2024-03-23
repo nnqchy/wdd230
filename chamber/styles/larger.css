@@ -47,14 +47,20 @@ header img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1.5em;
-        /* align-items: center; ???
-        margin: auto;
-        font-size: 1em;
-         align-items: center;*/
-        font-size: 1em;
-      }
+    font-size: 1em;
+ }
 
-
+ /* From Page */
+#joinform-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5em;
+   
+    margin: auto;
+    font-size: 1em;
+    
+    font-size: 1em;
+}
 
 
 }
