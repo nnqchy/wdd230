@@ -23,10 +23,11 @@ const displayLinks = (lessons) => {
 
         //    let years = document.createElement('p');
         //    let hijos = document.createElement('p');
-        a.textContent = lesson.lname;
+        // a.textContent = lesson.lname;
+        a.setAttribute('title', lesson.lname);
         a.setAttribute('href', lesson.url);
         // Build the list
-        li.textContent = `Week ${lesson.week}: ${lesson.lname} | ${a}`;
+        li.textContent = `Week ${lesson.week}: ${lesson.lname}`;
         //  url.textContent = `${lesson.url}`;
 
 
