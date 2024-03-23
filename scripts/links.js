@@ -29,6 +29,8 @@ const displayLinks = (lessons) => {
         //  url.textContent = `${lesson.url}`;
         a.textContent = lesson.lname;
         a.setAttribute('href', lesson.url);
+        let b = a;
+        li.textContent = `Week ${lesson.week}: ${b}`;
         //url.setAttribute('title', lesson.lname);
         //url.setAttribute('src', lesson.url);
         //    portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}`);
@@ -40,6 +42,7 @@ const displayLinks = (lessons) => {
         // Append the section(card) with the created elements
         ul.appendChild(li);
         ul.appendChild(a);
+        ul.appendChild(b);
         //link.appendChild(portrait);
         //    card.appendChild(hijos);
 
