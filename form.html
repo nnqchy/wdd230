@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/large.css">
     <link rel="stylesheet" href="styles/medium.css"> 
-    <link rel="stylesheet" href="styles/forms.css"> 
+    <link rel="stylesheet" href="styles/form.css"> 
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
     <meta property="og:title" content="Alex Benitez - WDD 230 - Web Frontend Development">
@@ -50,12 +50,9 @@
                     <span id="errormensaje"></span>
                     <label>Email* <input type="email" id="email" name="email" pattern="[a-zA-Z0-9_.\-]+@byui.edu" title="A valid byu.edu email address."
                         placeholder="someone@byui.edu" required></label>
-                </fieldset>
-                <fieldset>
-                    <legend>Page Rating</legend>
-                      
-                            <div id="rangevalue">0</div>
-                            <input type="range" id="range" name="range" min="0" max="10" step="1" value="0" list="rangevalues">
+                    <label>Rating</label>
+                        <div id="rangevalue">0</div>
+                          <input type="range" id="range" name="range" min="0" max="10" step="1" value="0" list="rangevalues">
                             <datalist id="rangevalues">
                                 <option value="0">0</option>
                                 <option value="1">1</option>
@@ -69,11 +66,9 @@
                                 <option value="9">9</option>
                                 <option value="10">10</option>
                             </datalist>
-                      
                 </fieldset>
-<input type="submit" value="Propose My Course">
+             <input type="submit" value="Propose My Course">
             </form>
-            
         </section> 
     </main>
     <footer>
