@@ -178,3 +178,7 @@ iframe{
   padding: 5px;
   margin: 0;
 }
+
+#enlaces a {
+  margin-left: 2.5rem;
+}

@@ -2,13 +2,48 @@
     "lessons": [
         {
             "week": "02",
-            "lname": "Hello",
-            "url": "lesson02/mediaquery.html"
+            "lname": "Web Desing Principles",
+            "url": "lesson02/design.html"
         },
         {
             "week": "03",
-            "lname": "bye",
-            "url": "lesson02/design-principles.html"
+            "lname": "Lesson 03",
+            "url": "index.html"
+        },
+        {
+            "week": "04",
+            "lname": "Lesson 04",
+            "url": "index.html"
+        },
+        {
+            "week": "05",
+            "lname": "Book of Mormon",
+            "url": "lesson05/bom.html"
+        },
+        {
+            "week": "06",
+            "lname": "Lesson 06",
+            "url": "index.html"
+        },
+        {
+            "week": "07",
+            "lname": "Lesson 07",
+            "url": "index.html"
+        },
+        {
+            "week": "08",
+            "lname": "Forms",
+            "url": "form.html"
+        },
+        {
+            "week": "09",
+            "lname": "Prophets",
+            "url": "lesson09/prophets.html"
+        },
+        {
+            "week": "10",
+            "lname": "Lesson 10",
+            "url": "index.html"
         }
     ]
 }
