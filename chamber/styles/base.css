@@ -80,11 +80,11 @@ padding: 1.5rem;
 /* background-color: rgb(199, 213, 228); */
 background-color: rgb(247, 249, 251);
 color: #023047;
-display: grid;
+/* display: grid;
 grid-template-columns: 1fr;
 grid-gap: 0.5rem;
 align-items: center;
-text-align: center;
+text-align: center; */
 }
 
 
@@ -234,7 +234,7 @@ border: #FB8500;
   height: auto;  */
   grid-template-columns: 1fr;
   display: grid;
-  align-items: center;
+  /* align-items: center; */
   text-align: justify;
   color: #023047;
   grid-gap: 0.5rem;
@@ -341,4 +341,12 @@ textarea {
   margin-right: 5px;
   text-align: left;
 
+}
+
+#control {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 0.5rem;
+  align-items: center;
+  text-align: center;
 }

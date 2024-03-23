@@ -25,9 +25,9 @@
     .navigation li {
         display: block;
     }
-     main{
+     /* main{
         grid-template-columns: 1fr 1fr;
-    } 
+    }  */
     
     h1{
         font-size: 2rem;
@@ -66,6 +66,12 @@
     .herolabel {
         right: 1%;
      } 
+     
+     #control {
+        grid-template-columns: 1fr 1fr;
+
+      }
 
     }
     
+   
