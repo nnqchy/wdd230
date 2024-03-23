@@ -21,22 +21,11 @@ const displayLinks = (lessons) => {
         let li = document.createElement('li');
         let a = document.createElement('a');
 
-        //    let years = document.createElement('p');
-        //    let hijos = document.createElement('p');
-
         a.textContent = lesson.lname;
         a.setAttribute('href', lesson.url);
         // Build the list
-        li.textContent = `Week ${lesson.week}: ${lesson.lname}`;
+        li.textContent = `Week ${lesson.week}`;
         //  url.textContent = `${lesson.url}`;
-
-
-        //url.setAttribute('title', lesson.lname);
-        //url.setAttribute('src', lesson.url);
-        //    portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}`);
-        //   portrait.setAttribute('loading', 'lazy');
-        //    portrait.setAttribute('width', '340');
-        //    portrait.setAttribute('height', '440');
 
 
         // Append the section(card) with the created elements
@@ -44,13 +33,8 @@ const displayLinks = (lessons) => {
         ul.appendChild(li);
         ul.appendChild(a);
 
-
-        //link.appendChild(portrait);
-        //    card.appendChild(hijos);
-
         enlaces.appendChild(card);
-    }); // end of arrow function and forEach loop
+    });
 }
-
 
 getLinks();
