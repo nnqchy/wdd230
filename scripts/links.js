@@ -9,8 +9,7 @@ async function getLinks() {
     console.log(data.lessons);
     displayLinks(data.lessons);
 
-    //   console.log(data.prophets);
-    //   displayLinks(data.prophets);
+
 }
 
 const displayLinks = (lessons) => {
@@ -25,7 +24,6 @@ const displayLinks = (lessons) => {
         a.setAttribute('href', lesson.url);
         // Build the list
         li.textContent = `Week ${lesson.week}`;
-        //  url.textContent = `${lesson.url}`;
 
 
         // Append the section(card) with the created elements
