@@ -16,15 +16,15 @@ async function getLinks() {
 const displayLinks = (lessons) => {
     lessons.forEach((lesson) => {
         // Create elements to add to the div.cards element
-
+        let card = document.createElement('section');
         let ul = document.createElement('ul');
         let li = document.createElement('li');
         let a = document.createElement('a');
 
         //    let years = document.createElement('p');
         //    let hijos = document.createElement('p');
-        // a.textContent = lesson.lname;
-        a.setAttribute('title', lesson.lname);
+
+        a.textContent = lesson.lname;
         a.setAttribute('href', lesson.url);
         // Build the list
         li.textContent = `Week ${lesson.week}: ${lesson.lname}`;
@@ -40,13 +40,15 @@ const displayLinks = (lessons) => {
 
 
         // Append the section(card) with the created elements
+        card.appendChild(ul);
         ul.appendChild(li);
         ul.appendChild(a);
+
 
         //link.appendChild(portrait);
         //    card.appendChild(hijos);
 
-        enlaces.appendChild(ul);
+        enlaces.appendChild(card);
     }); // end of arrow function and forEach loop
 }
 
