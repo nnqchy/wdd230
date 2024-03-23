@@ -62,6 +62,7 @@ nav a:hover, .navigation a:active{
 
 ul {
     list-style-type: none;
+    margin-left: 1rem;
 } 
 
 h1,h2,h3,h4,h5,h6 {
