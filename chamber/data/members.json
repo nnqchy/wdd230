@@ -7,7 +7,7 @@
             "since": "1980",
             "membership": "Gold",
             "website": "http://churrosmanolo.serveftp.net:3055/churros/home",
-            "logo": "https://nnqchy.github.io/wdd230/chamber/images/aldosivi.png"
+            "logo": "https://nnqchy.github.io/wdd230/chamber/images/manolo.png"
         },
         {
             "name": "Balcarce",
@@ -16,7 +16,7 @@
             "since": "1958",
             "membership": "Gold",
             "website": "https://www.postresbalcarce.com.ar",
-            "logo": "https://nnqchy.github.io/wdd230/chamber/images/aldosivi.png"
+            "logo": "https://nnqchy.github.io/wdd230/chamber/images/balcarce_logo.png"
         },
         {
             "name": "Hermitage Hotel",
@@ -25,7 +25,7 @@
             "since": "1944",
             "membership": "Bronze",
             "website": "http://www.hermitagehotel.com.ar/",
-            "logo": "https://nnqchy.github.io/wdd230/chamber/images/aldosivi.png"
+            "logo": "https://nnqchy.github.io/wdd230/chamber/images/hermitage_hotel.png"
         },
         {
             "name": "Casino del Mar",
@@ -34,16 +34,16 @@
             "since": "2007",
             "membership": "Silver",
             "website": "https://casinodelmar.com.ar",
-            "logo": "https://nnqchy.github.io/wdd230/chamber/images/aldosivi.png"
+            "logo": "https://nnqchy.github.io/wdd230/chamber/images/casino_del_mar_logo.png"
         },
         {
-            "name": "Torreon del Norte",
+            "name": "Torreon del Monje",
             "address": "Paseo Jesús S/N",
             "phone": "+54 223 451-9467",
             "since": "1944",
             "membership": "Silver",
             "website": "https://torreondelmonje.com.ar",
-            "logo": "https://nnqchy.github.io/wdd230/chamber/images/aldosivi.png"
+            "logo": "https://nnqchy.github.io/wdd230/chamber/images/logo_torreon_del_monje.png"
         },
         {
             "name": "Havanna",
@@ -52,7 +52,7 @@
             "since": "1947",
             "membership": "Gold",
             "website": "https://www.havanna.com.ar",
-            "logo": "https://nnqchy.github.io/wdd230/chamber/images/aldosivi.png"
+            "logo": "https://nnqchy.github.io/wdd230/chamber/images/havanna.png"
         },
         {
             "name": "Clinica Colon",
@@ -61,7 +61,7 @@
             "since": "1954",
             "membership": "Non Profit",
             "website": "https://clinicacolon.com.ar/",
-            "logo": "https://nnqchy.github.io/wdd230/chamber/images/aldosivi.png"
+            "logo": "https://nnqchy.github.io/wdd230/chamber/images/clinica_colon.png"
         },
         {
             "name": "Aldosivi",

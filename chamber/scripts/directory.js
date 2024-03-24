@@ -54,7 +54,7 @@ const displayData = (members) => {
 
         imagen.setAttribute("src", member.logo);
         imagen.setAttribute("alt", `${member.name} logo`);
-        imagen.setAttribute("width", "200");
+        // imagen.setAttribute("width", "200");
 
         // a.textContent = member.name;
         a.textContent = `website link`;
