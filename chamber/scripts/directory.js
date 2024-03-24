@@ -35,22 +35,42 @@ async function getCompanies() {
 const displayData = (members) => {
     members.forEach((member) => {
         // Create elements to add to the div.cards element
-        let card = document.createElement('section');
+        // De Links 
+
         let ul = document.createElement('ul');
         let li = document.createElement('li');
         let a = document.createElement('a');
+        // Miembros //
+        let card = document.createElement('section');
+        let nombre = document.createElement('p');
+        //        let imagen = document.createElement('img');
 
+        nombre.textContent = member.name;
+        nombre.classList.add("name");
+        // Imagen //
+        // imagen.setAttribute("src", member.logo);
+        // imagen.setAttribute("alt", `${member.name} logo`);
+        // imagen.setAttribute("width", "200");
 
-        a.textContent = member.name;
+        // a.textContent = member.name;
+        a.textContent = `website`;
         a.setAttribute('href', member.url);
         // Build the list
         li.textContent = `Week ${member.address}`;
 
 
         // Append the section(card) with the created elements
-        card.appendChild(ul);
+
         ul.appendChild(li);
         ul.appendChild(a);
+
+        card.appendChild(ul);
+
+        card.appendChild(nombre);
+        // card.appendChild(imagen);
+        // card.appendChild(ul);
+        // card.appendChild(ul);
+
 
         business.appendChild(card);
     });
