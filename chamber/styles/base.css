@@ -343,34 +343,34 @@ textarea {
 
 /* Directory Page */
 
-.buttons {
-  display: flex;
-  justify-content: center;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.grid-button,
-.list-button {
-  display: flex;
-  width: 100px;
-  height: 50px;
-  border: 1px solid black;
-  justify-content: center;
-  align-items: center;
-  margin-right: 10px;
-  cursor: pointer;
+.menu button {
+	padding: 1rem;
+	font-weight: 700;
 }
 
 .grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 2rem;
-  margin: 0;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 5px;
+	align-items: center;
 }
 
-.grid .name {
-  display: none;
+.grid section {
+	text-align: center;
 }
+
+.grid img {
+	border: 1px solid #fff;
+	box-shadow: 0 0 10px #333;
+}
+
+.grid section > * {
+	margin: 0.1rem;
+}
+
+.grid h3 {
+	font-family: "Caveat", cursive;
+}
+
 
 /* End Directory Page */
