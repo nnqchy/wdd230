@@ -69,7 +69,7 @@ const displayData = (members) => {
         desde.textContent = `Business Since ${member.since}`;
         desde.classList.add("since");
 
-        status.textContent = `Membership type ${member.membership}`;
+        status.textContent = `${member.membership} Membership`;
         status.classList.add("membership");
         // Append the section(card) with the created elements
 
