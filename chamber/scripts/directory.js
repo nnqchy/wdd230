@@ -1,5 +1,7 @@
-const baseURL = "https://nnqchy.github.io/wdd230/";
-const companiesData = "https://nnqchy.github.io/wdd230/data/links.json";
+// const baseURL = "https://nnqchy.github.io/wdd230/";
+// const companiesData = "https://nnqchy.github.io/wdd230/data/links.json";
+const baseURL = "https://nnqchy.github.io/wdd230/chamber";
+const companiesData = "https://nnqchy.github.io/wdd230/chamber/data/members.json";
 //button declarations
 // const gridbutton = document.querySelector("#grid");
 // const listbutton = document.querySelector("#list");
