@@ -60,4 +60,4 @@ const displayLinks = (members) => {
     });
 }
 
-getLinks();
+getMembers();
