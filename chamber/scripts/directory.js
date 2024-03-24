@@ -41,11 +41,13 @@ const displayData = (members) => {
         // let li = document.createElement('li');
 
         // Miembros //
-        let card = document.createElement('section');
+        let card = document.createElement('div');
         let nombre = document.createElement('p');
         let direccion = document.createElement('p');
         let tel = document.createElement('p');
         let a = document.createElement('a');
+        let desde = document.createElement('p');
+        let status = document.createElement('p');
         //        let imagen = document.createElement('img');
 
         nombre.textContent = member.name;
@@ -53,7 +55,7 @@ const displayData = (members) => {
         // Imagen //
 
 
-        // "phone": "+54 223 472-3752",
+
         // "since": "1980",
         // "membership": "Gold",
         // "logo": "logo"
@@ -69,10 +71,15 @@ const displayData = (members) => {
         // Build Company info
         tel.textContent = member.phone;
         tel.classList.add("tel");
+
         direccion.textContent = member.address;
         direccion.classList.add("address");
 
+        desde.textContent = member.since;
+        desde.classList.add("since");
 
+        status.textContent = member.membership;
+        status.classList.add("membership");
         // Append the section(card) with the created elements
 
         // ul.appendChild(li);
@@ -83,6 +90,8 @@ const displayData = (members) => {
         card.appendChild(nombre);
         card.appendChild(direccion);
         card.appendChild(tel);
+        card.appendChild(desde);
+        card.appendChild(status);
         card.appendChild(a);
         // card.appendChild(imagen);
         // card.appendChild(ul);
