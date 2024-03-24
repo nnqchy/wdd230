@@ -1,5 +1,5 @@
 const baseURL = "https://nnqchy.github.io/wdd230/chamber";
-const companiesData = "https://nnqchy.github.io/wdd230/chamber/data/members.json";
+const linkURL = "https://nnqchy.github.io/wdd230/chamber/data/members.json";
 //button declarations
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
@@ -24,10 +24,10 @@ function showList() {
 // from Get Companies //
 
 async function getCompanies() {
-    const response = await fetch(companiesData);
+    const response = await fetch(linkURL);
     const data = await response.json();
     console.log(data);
-    displayData(data.companies);
+    displayData(data.members);
 
 
 }
