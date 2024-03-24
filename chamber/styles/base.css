@@ -343,34 +343,90 @@ textarea {
 
 /* Directory Page */
 
-.menu button {
+/* .menu button {
 	padding: 1rem;
 	font-weight: 700;
+} */
+
+
+.botones {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
+
+#grid,
+#list {
+  display: flex;
+  width: 100px;
+  height: 50px;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
 
 .grid {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-	grid-gap: 5px;
-	align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin: 0;
 }
 
-.grid section {
-	text-align: center;
+.grid .name {
+  /* display: none; */
+  font: 1.5em sans-serif;
+} 
+
+.list div:nth-child(odd) {
+  background-color: #ddd;
 }
 
-.grid img {
-	border: 1px solid #fff;
-	box-shadow: 0 0 10px #333;
+/* .darkmode .layout.list div:nth-child(odd) {
+  color: #0f110f;
+} */
+
+#business.list div {
+  transition: none;
+  text-align: start;
+  box-shadow: none;
+  border: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
-.grid section > * {
-	margin: 0.1rem;
+#business.list div:hover {
+  transform: none;
 }
 
-.grid h3 {
-	font-family: "Caveat", cursive;
+#business.list img {
+  display: none;
 }
+
+#business.list p {
+  width: 90%;
+}
+
+#business {
+  padding: 1rem;
+
+}
+
+#business div {
+  /* width: 100%; */
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 1px 1px 9px;
+  transition: transform 0.5s ease;
+}
+
+#business div:hover {
+  transform: scale(1.1);
+}
+
 
 
 /* End Directory Page */

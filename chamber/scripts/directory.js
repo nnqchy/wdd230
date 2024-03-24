@@ -4,23 +4,21 @@ const linkURL = "https://nnqchy.github.io/wdd230/chamber/data/members.json";
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 // //display members declaration
-const display = document.querySelector("article");
+// const display = document.querySelector("article");
 const business = document.querySelector('#business');
 
 // The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
 
+listbutton.addEventListener("click", () => {
+    business.classList.add("list");
+    business.classList.remove("grid");
+});
 gridbutton.addEventListener("click", () => {
-    // example using arrow function
-    display.classList.add("grid");
-    display.classList.remove("list");
+    business.classList.add("grid");
+    business.classList.remove("list");
 });
 
-listbutton.addEventListener("click", showList); // example using defined function
 
-function showList() {
-    display.classList.add("list");
-    display.classList.remove("grid");
-}
 // from Get Companies //
 
 async function getCompanies() {
@@ -75,10 +73,10 @@ const displayData = (members) => {
         direccion.textContent = member.address;
         direccion.classList.add("address");
 
-        desde.textContent = member.since;
+        desde.textContent = `Business Since ${member.since}`;
         desde.classList.add("since");
 
-        status.textContent = member.membership;
+        status.textContent = `Membership type ${member.membership}`;
         status.classList.add("membership");
         // Append the section(card) with the created elements
 

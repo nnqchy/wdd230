@@ -20,7 +20,7 @@
         },
         {
             "name": "Hermitage Hotel",
-            "address": "Avenida Colón 1643",
+            "address": "Ave. Colón 1643",
             "phone": "+54 223 451-9081",
             "since": "1944",
             "membership": "Bronze",
@@ -29,7 +29,7 @@
         },
         {
             "name": "Casino del Mar",
-            "address": "Av. Patricio Peralta Ramos 2656",
+            "address": "Av. Ramos 2656",
             "phone": "+54 223 486-19765",
             "since": "2007",
             "membership": "Silver",
@@ -38,9 +38,9 @@
         },
         {
             "name": "Torreon del Norte",
-            "address": "Paseo Jesús de Galindez S/N",
+            "address": "Paseo Jesús S/N",
             "phone": "+54 223 451-9467",
-            "since": "27 June 1844",
+            "since": "1944",
             "membership": "Silver",
             "website": "https://torreondelmonje.com.ar",
             "logo": "logo"
@@ -65,7 +65,7 @@
         },
         {
             "name": "Aldosivi",
-            "address": "Av. de los Trabajadores 1800",
+            "address": "Av. Trabajadores 1800",
             "phone": "+54 223 484-4230",
             "since": "1913",
             "membership": "Bronze",
