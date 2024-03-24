@@ -343,11 +343,6 @@ textarea {
 
 /* Directory Page */
 
-/* .menu button {
-	padding: 1rem;
-	font-weight: 700;
-} */
-
 
 .botones {
   display: flex;
@@ -385,9 +380,6 @@ textarea {
   background-color: #ddd;
 }
 
-/* .darkmode .layout.list div:nth-child(odd) {
-  color: #0f110f;
-} */
 
 #business.list div {
   transition: none;
