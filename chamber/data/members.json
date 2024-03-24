@@ -7,7 +7,7 @@
             "since": "1980",
             "membership": "Gold",
             "website": "http://churrosmanolo.serveftp.net:3055/churros/home",
-            "logo": "logo"
+            "logo": "https://nnqchy.github.io/wdd230/chamber/images/aldosivi.png"
         },
         {
             "name": "Balcarce",
@@ -16,7 +16,7 @@
             "since": "1958",
             "membership": "Gold",
             "website": "https://www.postresbalcarce.com.ar",
-            "logo": "logo"
+            "logo": "https://nnqchy.github.io/wdd230/chamber/images/aldosivi.png"
         },
         {
             "name": "Hermitage Hotel",
@@ -25,7 +25,7 @@
             "since": "1944",
             "membership": "Bronze",
             "website": "http://www.hermitagehotel.com.ar/",
-            "logo": "logo"
+            "logo": "https://nnqchy.github.io/wdd230/chamber/images/aldosivi.png"
         },
         {
             "name": "Casino del Mar",
@@ -34,7 +34,7 @@
             "since": "2007",
             "membership": "Silver",
             "website": "https://casinodelmar.com.ar",
-            "logo": "logo"
+            "logo": "https://nnqchy.github.io/wdd230/chamber/images/aldosivi.png"
         },
         {
             "name": "Torreon del Norte",
@@ -43,7 +43,7 @@
             "since": "1944",
             "membership": "Silver",
             "website": "https://torreondelmonje.com.ar",
-            "logo": "logo"
+            "logo": "https://nnqchy.github.io/wdd230/chamber/images/aldosivi.png"
         },
         {
             "name": "Havanna",
@@ -52,7 +52,7 @@
             "since": "1947",
             "membership": "Gold",
             "website": "https://www.havanna.com.ar",
-            "logo": "Logo"
+            "logo": "https://nnqchy.github.io/wdd230/chamber/images/aldosivi.png"
         },
         {
             "name": "Clinica Colon",
@@ -61,7 +61,7 @@
             "since": "1954",
             "membership": "Non Profit",
             "website": "https://clinicacolon.com.ar/",
-            "logo": "Logo"
+            "logo": "https://nnqchy.github.io/wdd230/chamber/images/aldosivi.png"
         },
         {
             "name": "Aldosivi",
@@ -70,7 +70,7 @@
             "since": "1913",
             "membership": "Bronze",
             "website": "https://aldosivi.com/",
-            "logo": "logo"
+            "logo": "https://nnqchy.github.io/wdd230/chamber/images/aldosivi.png"
         }
     ]
 }

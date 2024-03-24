@@ -46,22 +46,15 @@ const displayData = (members) => {
         let a = document.createElement('a');
         let desde = document.createElement('p');
         let status = document.createElement('p');
-        //        let imagen = document.createElement('img');
+        let imagen = document.createElement('img');
 
         nombre.textContent = member.name;
         nombre.classList.add("name");
         // Imagen //
 
-
-
-        // "since": "1980",
-        // "membership": "Gold",
-        // "logo": "logo"
-
-
-        // imagen.setAttribute("src", member.logo);
-        // imagen.setAttribute("alt", `${member.name} logo`);
-        // imagen.setAttribute("width", "200");
+        imagen.setAttribute("src", member.logo);
+        imagen.setAttribute("alt", `${member.name} logo`);
+        imagen.setAttribute("width", "200");
 
         // a.textContent = member.name;
         a.textContent = `website link`;
@@ -84,7 +77,7 @@ const displayData = (members) => {
 
 
         // card.appendChild(ul);
-
+        card.appendChild(imagen);
         card.appendChild(nombre);
         card.appendChild(direccion);
         card.appendChild(tel);
