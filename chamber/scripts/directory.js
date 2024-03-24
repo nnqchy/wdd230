@@ -28,27 +28,27 @@ function showList() {
 const business = document.querySelector('#bussines');
 
 
-async function getMembers() {
+async function getLinks() {
     const response = await fetch(linksURL);
     const data = await response.json();
     console.log(data.members);
-    displayLinks(data.members);
+    //displayLinks(data.members);
 
 
 }
 
-const displayLinks = (members) => {
-    members.forEach((member) => {
+const displayLinks = (companies) => {
+    companies.forEach((company) => {
         // Create elements to add to the div.cards element
         let card = document.createElement('section');
         let ul = document.createElement('ul');
         let li = document.createElement('li');
         let a = document.createElement('a');
 
-        a.textContent = member.name;
-        a.setAttribute('href', member.url);
+        a.textContent = company.name;
+        a.setAttribute('href', company.url);
         // Build the list
-        li.textContent = `Week ${membern.address}`;
+        li.textContent = `Week ${company.address}`;
 
 
         // Append the section(card) with the created elements
@@ -60,4 +60,4 @@ const displayLinks = (members) => {
     });
 }
 
-getMembers();
+getLinks();
