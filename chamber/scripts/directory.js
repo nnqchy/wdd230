@@ -31,7 +31,7 @@ const business = document.querySelector('#bussines');
 async function getLinks() {
     const response = await fetch(linksURL);
     const data = await response.json();
-    console.log(data.members);
+    console.log(data.companies);
     //displayLinks(data.members);
 
 
