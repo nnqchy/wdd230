@@ -5,7 +5,7 @@ const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 // //display members declaration
 const display = document.querySelector("article");
-const business = document.querySelector('#bussines');
+const business = document.querySelector('#business');
 
 // The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
 
