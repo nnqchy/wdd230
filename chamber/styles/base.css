@@ -423,6 +423,10 @@ textarea {
   transition: transform 0.5s ease;
 }
 
+#business img {
+box-shadow: none;
+}
+
 #business div:hover {
   transform: scale(1.1);
 }
