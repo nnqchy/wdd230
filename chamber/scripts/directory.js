@@ -37,19 +37,28 @@ const displayData = (members) => {
         // Create elements to add to the div.cards element
         // De Links 
 
-        let ul = document.createElement('ul');
-        let li = document.createElement('li');
-        let a = document.createElement('a');
+        // let ul = document.createElement('ul');
+        // let li = document.createElement('li');
+
         // Miembros //
         let card = document.createElement('section');
         let nombre = document.createElement('p');
         let direccion = document.createElement('p');
         let tel = document.createElement('p');
+        let a = document.createElement('a');
         //        let imagen = document.createElement('img');
 
         nombre.textContent = member.name;
         nombre.classList.add("name");
         // Imagen //
+
+
+        // "phone": "+54 223 472-3752",
+        // "since": "1980",
+        // "membership": "Gold",
+        // "logo": "logo"
+
+
         // imagen.setAttribute("src", member.logo);
         // imagen.setAttribute("alt", `${member.name} logo`);
         // imagen.setAttribute("width", "200");
@@ -66,13 +75,14 @@ const displayData = (members) => {
 
         // Append the section(card) with the created elements
 
-        ul.appendChild(li);
+        // ul.appendChild(li);
 
 
-        card.appendChild(ul);
+        // card.appendChild(ul);
 
         card.appendChild(nombre);
         card.appendChild(direccion);
+        card.appendChild(tel);
         card.appendChild(a);
         // card.appendChild(imagen);
         // card.appendChild(ul);
