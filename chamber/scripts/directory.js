@@ -44,6 +44,7 @@ const displayData = (members) => {
         let card = document.createElement('section');
         let nombre = document.createElement('p');
         let direccion = document.createElement('p');
+        let tel = document.createElement('p');
         //        let imagen = document.createElement('img');
 
         nombre.textContent = member.name;
@@ -54,21 +55,25 @@ const displayData = (members) => {
         // imagen.setAttribute("width", "200");
 
         // a.textContent = member.name;
-        a.textContent = `website`;
+        a.textContent = `website link`;
         a.setAttribute('href', member.website);
-        // Build the list
+        // Build Company info
+        tel.textContent = member.phone;
+        tel.classList.add("tel");
         direccion.textContent = member.address;
+        direccion.classList.add("address");
 
 
         // Append the section(card) with the created elements
 
         ul.appendChild(li);
-        ul.appendChild(a);
+
 
         card.appendChild(ul);
 
         card.appendChild(nombre);
         card.appendChild(direccion);
+        card.appendChild(a);
         // card.appendChild(imagen);
         // card.appendChild(ul);
         // card.appendChild(ul);
