@@ -21,25 +21,19 @@ function showList() {
     display.classList.add("list");
     display.classList.remove("grid");
 }
-
-
-
 // from Get Companies //
-
-
-
 
 async function getCompanies() {
     const response = await fetch(companiesData);
     const data = await response.json();
     console.log(data);
-    displayLinks(data.companies);
+    displayData(data.companies);
 
 
 }
 
-const displayLinks = (companies) => {
-    companies.forEach((company) => {
+const displayData = (members) => {
+    members.forEach((member) => {
         // Create elements to add to the div.cards element
         let card = document.createElement('section');
         let ul = document.createElement('ul');
@@ -47,10 +41,10 @@ const displayLinks = (companies) => {
         let a = document.createElement('a');
 
 
-        a.textContent = company.name;
-        a.setAttribute('href', company.url);
+        a.textContent = member.name;
+        a.setAttribute('href', member.url);
         // Build the list
-        li.textContent = `Week ${company.address}`;
+        li.textContent = `Week ${member.address}`;
 
 
         // Append the section(card) with the created elements
