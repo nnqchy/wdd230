@@ -29,48 +29,27 @@
     <nav>
       <ul class="navigation">
       <li><a href="#" title="Home">Home</a></li>
-      <li><a href="discover.html">Discover</a></li>
-      <li><a href="#">Directory</a></li>
-      <li><a href="join.html">Join</a></li>
+      <li><a href="discover.html" title="Discover">Discover</a></li>
+      <li><a href="#" title="Directory">Directory</a></li>
+      <li><a href="join.html" title="Join">Join</a></li>
       </ul>
     </nav>
     <div>
-        <section class="hero">
+        <div class="hero">
             <picture>
                 <source srcset="images/wdd230_small.webp" media="(max-with: 500px)">
                 <source srcset="images/wdd230_medium.webp" media="(max-with: 1000px)">
                 <img alt="Mar del Planta City" src="images/mar-del-plata-chamber-of-commerce.webp">    
             </picture>
-            <div class="herolabel">
-                <p>Join Now</p>
-            </div>
-        </section>
+        </div>
     </div>
-    <main id="control">
-        <section class="card">
-            <h3>Secction 1 - Bussiness Directory</h3>
-            <ul>
-                <li>Bussiness Name 1</li>
-                <li>Bussiness Name 2</li>
-            </ul>
-        </section>  
-        <section class="card">
-            <h3>Secction 2 Weather card</h3>
-            <p>78&deg; F - Sunshine</p>
-            <p>Wind Chill: <span id="windChill"></span>&deg;</p> 
-        </section>
-        <section class="card">
-            <h3>Secction 3 Last News</h3>
-            <p>On the news with can see....</p>
-        </section> 
-        <section class="card">
-            <h3>Secction 4 What to do 3 H3</h3>
-            <p>This week we have....</p>
-        </section> 
-        <section class="card">
-            <h3>Secction 5 Advertisements card</h3>
-            <p>Click Here</p>
-        </section> 
+    <main>
+        <div class="buttons">
+            <span class="grid-button">Grid</span>
+            <span class="list-button">List</span>
+          </div>
+      
+          <div class="layout"></div>
     </main>
     <footer>
         <div>
@@ -84,11 +63,9 @@
             <p>+54 9 (135) 9892</p>
             <p>Location Map</p>
         </div>
-        <section>
+        <div>
             <p>&copy; <span id="year"></span> | <b>Alex Benitez</b> | WDD 230 Project | Last Updated: <span id="lastModified"></span></p>
-        </div>
-            
-              
+        </div>            
     </footer>
     <script defer src="scripts/getdates.js"></script> 
     <script defer src="scripts/burgermenu.js"></script>

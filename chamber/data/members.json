@@ -1,0 +1,76 @@
+{
+    "members": [
+        {
+            "name": "Manolo",
+            "address": "San Luis 1729",
+            "phone": "+54 223 472-3752",
+            "since": "1980",
+            "membership": "Gold",
+            "website": "http://churrosmanolo.serveftp.net:3055/churros/home",
+            "logo": "logo"
+        },
+        {
+            "name": "Balcarce",
+            "address": "Belgrano 2107",
+            "phone": "+54 223 472-7338",
+            "since": "1958",
+            "membership": "Gold",
+            "website": "https://www.postresbalcarce.com.ar",
+            "logo": "logo"
+        },
+        {
+            "name": "Hermitage Hotel",
+            "address": "Avenida Colón 1643",
+            "phone": "+54 223 451-9081",
+            "since": "1944",
+            "membership": "Bronze",
+            "website": "http://www.hermitagehotel.com.ar/",
+            "logo": "logo"
+        },
+        {
+            "name": "Casino del Mar",
+            "address": "Av. Patricio Peralta Ramos 2656",
+            "phone": "+54 223 486-19765",
+            "since": "2007",
+            "membership": "Silver",
+            "website": "https://casinodelmar.com.ar",
+            "logo": "logo"
+        },
+        {
+            "name": "Torreon del Norte",
+            "address": "Paseo Jesús de Galindez S/N",
+            "phone": "+54 223 451-9467",
+            "since": "27 June 1844",
+            "membership": "Silver",
+            "website": "https://torreondelmonje.com.ar",
+            "logo": "logo"
+        },
+        {
+            "name": "Havanna",
+            "address": "Alsina 172",
+            "phone": "+54 291 454-9998",
+            "since": "1947",
+            "membership": "Gold",
+            "website": "https://www.havanna.com.ar",
+            "logo": "Logo"
+        },
+        {
+            "name": "Clinica Colon",
+            "address": "Av. Colón 3629",
+            "phone": "+54 223 499-2656",
+            "since": "1954",
+            "membership": "Non Profit",
+            "website": "https://clinicacolon.com.ar/",
+            "logo": "Logo"
+        },
+        {
+            "name": "Aldosivi",
+            "address": "Av. de los Trabajadores 1800",
+            "phone": "+54 223 484-4230",
+            "since": "1913",
+            "membership": "Bronze",
+            "website": "https://aldosivi.com/",
+            "logo": "logo"
+        }
+    ]
+}
