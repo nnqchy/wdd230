@@ -5,6 +5,7 @@ const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 // //display members declaration
 const display = document.querySelector("article");
+const business = document.querySelector('#bussines');
 
 // The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
 
@@ -25,14 +26,14 @@ function showList() {
 
 // from Get Companies //
 
-const business = document.querySelector('#bussines');
+
 
 
 async function getCompanies() {
     const response = await fetch(companiesData);
     const data = await response.json();
     console.log(data);
-    displayLinks(data.members);
+    displayLinks(data.companies);
 
 
 }
@@ -44,6 +45,7 @@ const displayLinks = (companies) => {
         let ul = document.createElement('ul');
         let li = document.createElement('li');
         let a = document.createElement('a');
+
 
         a.textContent = company.name;
         a.setAttribute('href', company.url);
