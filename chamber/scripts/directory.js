@@ -43,6 +43,7 @@ const displayData = (members) => {
         // Miembros //
         let card = document.createElement('section');
         let nombre = document.createElement('p');
+        let direccion = document.createElement('p');
         //        let imagen = document.createElement('img');
 
         nombre.textContent = member.name;
@@ -54,9 +55,9 @@ const displayData = (members) => {
 
         // a.textContent = member.name;
         a.textContent = `website`;
-        a.setAttribute('href', member.url);
+        a.setAttribute('href', member.website);
         // Build the list
-        li.textContent = `Week ${member.address}`;
+        direccion.textContent = member.address;
 
 
         // Append the section(card) with the created elements
@@ -67,6 +68,7 @@ const displayData = (members) => {
         card.appendChild(ul);
 
         card.appendChild(nombre);
+        card.appendChild(direccion);
         // card.appendChild(imagen);
         // card.appendChild(ul);
         // card.appendChild(ul);
